@@ -7,6 +7,10 @@ nav {
     background-color: #212121;
 }
 
+header {
+    position: relative;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -33,6 +37,8 @@ nav {
 }
 
 .subheader {
+    position: absolute;
+    width: 100%;
     height: 84px;
     background-color: rgba(0,0,0, .6);
 }
@@ -113,5 +119,77 @@ nav {
 }
 
 .promo .promo_description {
-
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 24px;
 }
+
+.promo .promo_btn {
+    text-transform: uppercase;
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reason .benefits {
+    display: block;
+    margin: 70px auto 60px auto;
+    padding-top: 6px;
+    width: 112px;
+    height: 24px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reason .reasons {
+    display: block;
+    margin: 70px auto 35px auto;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reason img {
+    display: flex;
+    margin-bottom: 40px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reason .reason_text {
+    margin-bottom: 17px;
+    float: right;
+    width: 341px;
+    height: 141px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.reason .reason_text span {
+    color: #1eacc7;
+    font-size: 20px;
+}
+
