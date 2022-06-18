@@ -180,6 +180,8 @@ nav
   letter-spacing: normal
   line-height: 21px
   text-align: center
+  &_white
+    color: white
 
 .reasons .reasons_block
   display: flex
@@ -195,7 +197,6 @@ nav
     height: 113px
     background-color: $blue
     border-radius: 100%
-    &_descr
     &_subtitle
       line-height: 21px
       color: $blue
@@ -336,4 +337,23 @@ nav
     .require_title
       color: $tomato
 
-
+.world
+  padding-top: 49px
+  min-height: 717px
+  background-color: #080816
+  .container
+    min-height: 717px
+    background-image: url("../img/world.jpg")
+  .cities
+        display: block
+        margin-top: 490px
+        text-transform: uppercase
+        color: #1fbad6
+        font-size: 15px
+        font-weight: 400
+        text-align: center
+        text-decoration: none
+        transition: 0.3s all
+        &:hover
+          color: white
+          font-size: 16px

@@ -188,6 +188,9 @@ nav {
   line-height: 21px;
   text-align: center;
 }
+.subtitle_white {
+  color: white;
+}
 
 .reasons .reasons_block {
   display: flex;
@@ -370,6 +373,31 @@ nav {
 }
 .require .warning .require_title {
   color: #FF5656;
+}
+
+.world {
+  padding-top: 49px;
+  min-height: 717px;
+  background-color: #080816;
+}
+.world .container {
+  min-height: 717px;
+  background-image: url("../img/world.jpg");
+}
+.world .cities {
+  display: block;
+  margin-top: 490px;
+  text-transform: uppercase;
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.world .cities:hover {
+  color: white;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
