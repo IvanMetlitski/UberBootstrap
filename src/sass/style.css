@@ -409,21 +409,22 @@ footer {
 }
 footer .left_icons {
   margin-left: 23px;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
 }
 footer .left_icons_round {
-  position: relative;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 32px;
   height: 32px;
-  display: inline-block;
-  margin: 0 auto;
+  margin: 0 4px;
   border-radius: 100%;
   background-color: black;
 }
-footer .left_icons_round img {
-  position: absolute;
-  left: 8px;
-  bottom: 7px;
+footer .left_icons_round i {
+  color: white;
 }
 footer .middle_icons {
   width: 150px;
