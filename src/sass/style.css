@@ -8,7 +8,7 @@ nav {
   width: 100%;
   height: 50px;
   background-color: #212121;
-  z-index: 2;
+  z-index: 3;
 }
 nav .hamburger {
   display: none;
@@ -407,9 +407,9 @@ nav .hamburger {
 footer {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 40px;
   width: 100%;
-  height: 150px;
+  height: 160px;
 }
 footer .left_icons {
   margin-left: 23px;
@@ -480,8 +480,8 @@ footer .middle_icons_lang a:hover {
   color: #1ca8c3;
   font-size: 12px;
 }
-footer .right_icons_block {
-  margin-right: 23px;
+footer .right_icons {
+  margin-right: 20px;
 }
 
 .subfooter {
@@ -498,7 +498,7 @@ footer .right_icons_block {
   .menu_item {
     padding-right: 20px;
   }
-  .menu _link {
+  .menu_link {
     font-size: 13px;
   }
   .promo_header {
@@ -515,7 +515,7 @@ footer .right_icons_block {
   .menu_item {
     padding-right: 8px;
   }
-  .menu _link {
+  .menu_link {
     font-size: 10px;
   }
   .subheader_logo img {
@@ -548,6 +548,27 @@ footer .right_icons_block {
   .reasons_descr {
     margin-top: 20px;
     width: 300px;
+  }
+  .mobile_item {
+    width: 220px;
+    height: 190px;
+  }
+  .mobile_item_subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .mobile_item_plus {
+    bottom: 15px;
+  }
+  .footer {
+    height: 450px;
+    display: block;
+  }
+  .footer .right_icons a > img {
+    display: block;
   }
 }
 @media (max-width: 767px) {
